@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Read the Docs build dependencies",
   "author": "Anthony Johnson <anthony@readthedocs.com>",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "*",
     "less": "*",
@@ -16,5 +15,8 @@
     "debowerify": "*"
   },
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
 }
